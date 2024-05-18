@@ -10,21 +10,66 @@
 
 <body>
   <div class="relative w-full h-screen overflow-hidden" id="app">
-    <div class="absolute top-0 w-full flex items-center justify-between py-2 px-6 bg-black text-white font-semibold">
+    <div class="absolute top-0 w-full flex items-center justify-between py-2 px-6 text-white font-semibold z-50">
       <a class="underline underline-offset-2" href="https://x.com/ln_dev7">
         Code by LN
       </a>
-      <a class="underline underline-offset-2" href="https://github.com/ln-dev7/">
+      <a class="underline underline-offset-2" href="https://github.com/ln-dev7/characters-slider-animation">
         GitHub
       </a>
-      <a class="underline underline-offset-2" href="#">
+      <a class="underline underline-offset-2"
+        href="https://www.figma.com/design/rI8BZkR2LzIsx8RvZgje1P/Characters-Slider-Animation-%E2%9C%A8-(Community)?node-id=1%3A72&t=2La2OvuyvgTEQH7i-1">
         Figma
       </a>
     </div>
-    <div class="w-full h-full flex items-center justify-center p-4">
-      <h1 className="text-3xl font-bold underline">
-        FUN ANIMATION TEMPLATE
-      </h1>
+    <div class="relative w-full h-full flex items-center justify-center p-4 bg-1 main">
+      <div class="flex flex-col items-center">
+        <div class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1/4">
+          <h1 class="text-[18rem] leading-[1] uppercase title">Ecratose</h1>
+        </div>
+        <div class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1/4">
+          <h1 class="text-[18rem] leading-[1] uppercase title opacity-0 -translate-y-full">SolmazoE</h1>
+        </div>
+        <div class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1/4">
+          <h1 class="text-[18rem] leading-[1] uppercase title opacity-0 -translate-y-full">ZozoligE</h1>
+        </div>
+        <div class="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-1/4">
+          <h1 class="text-[18rem] leading-[1] uppercase title opacity-0 -translate-y-full">Gistagor</h1>
+        </div>
+      </div>
+      <div class="">
+        <div class="absolute bottom-0 left-[48%] -translate-x-1/2 flex items-center justify-center">
+          <img src="/image-1.png" alt="Character" class="w-[800px] object-cover image" />
+        </div>
+        <div class="absolute bottom-0 left-[48%] -translate-x-1/2 flex items-center justify-center">
+          <img src="/image-2.png" alt="Character" class="w-[800px] scale-50 translate-y-full object-cover image" />
+        </div>
+        <div class="absolute bottom-0 left-[48%] -translate-x-1/2 flex items-center justify-center">
+          <img src="/image-3.png" alt="Character" class="w-[800px] scale-50 translate-y-full object-cover image" />
+        </div>
+        <div class="absolute bottom-0 left-[48%] -translate-x-1/2 flex items-center justify-center">
+          <img src="/image-4.png" alt="Character" class="w-[800px] scale-50 translate-y-full object-cover image" />
+        </div>
+      </div>
+      <div class="w-full flex justify-center items-center z-10">
+        <p
+          class="text-7xl font-light tracking-[1rem] uppercase w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center mt-10 name">
+          Ecratose 007</p>
+        <p
+          class="text-7xl font-light tracking-[1rem] uppercase w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center mt-10 opacity-0 name">
+          SolmazoE 008</p>
+        <p
+          class="text-7xl font-light tracking-[1rem] uppercase w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center mt-10 opacity-0 name">
+          ZozoligE 004</p>
+        <p
+          class="text-7xl font-light tracking-[1rem] uppercase w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center mt-10 opacity-0 name">
+          Gistagor 002</p>
+      </div>
+    </div>
+    <div
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full flex items-center justify-between py-2 px-20 z-30">
+      <div class="arrow-left cursor-pointer"><img src="/arrow-left.svg" alt="Arrow" class="w-20" /></div>
+      <div class="arrow-right cursor-pointer"><img src="/arrow-right.svg" alt="Arrow" class="w-20" /></div>
     </div>
   </div>
   <script type="module" src="/main.js"></script>
